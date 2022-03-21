@@ -4,7 +4,7 @@ import styled from "styled-components";
 import MovieComponent from "./components/MovieComponent";
 import MovieInfoComponent from "./components/MovieInfoComponent";
 
-export const API_KEY = "fd829dea";
+export const API_KEY = "38f184bf";
 
 const Container = styled.div`
   display: flex;
@@ -16,8 +16,8 @@ const AppName = styled.div`
   align-items: center;
 `;
 const Header = styled.div`
-  background-color: yellow;
-  color: red;
+  background-color:blue;
+  color: black;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -32,9 +32,7 @@ const SearchBox = styled.div`
   flex-direction: row;
   padding: 10px 10px;
   border-radius: 6px;
-  margin-left: 20px;
-  width: 50%;
-  background-color: white;
+ 
 `;
 const SearchIcon = styled.img`
   width: 32px;
@@ -49,9 +47,7 @@ const SearchInput = styled.input`
   color: black;
   font-size: 16px;
   font-weight: bold;
-  border: none;
-  outline: none;
-  margin-left: 15px;
+
 `;
 const MovieListContainer = styled.div`
   display: flex;
